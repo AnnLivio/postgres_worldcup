@@ -21,3 +21,6 @@ All of columns should have the NOT NULL constraint.
 
 ## Part 3: Query the database
 *queries.sh* file to produce output that matches the expected_output.txt file.
+
+## Dump:
+We make a dump of the db by entering pg_dump -cC --inserts -U user worldcup > worldcup.sql in bash terminal. It will save the commands to rebuild our database in worldcup.sql. We can rebuild the database by entering psql -U postgres < worldcup.sql in a terminal where the .sql file is.
