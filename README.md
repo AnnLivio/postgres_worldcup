@@ -2,7 +2,7 @@
 A worldcup project using bash scripting and postgreSQL db
 
 ## The data
-*games.csv*: It contains a comma-separated list of all games of the final three rounds of the World Cup tournament since 2014; the titles are at the top. It includes the year of each game, the round of the game, the winner, their opponent, and the number of goals each team scored. 
+*games.csv* It contains a comma-separated list of all games of the final three rounds of the World Cup tournament since 2014; the titles are at the top. It includes the year of each game, the round of the game, the winner, their opponent, and the number of goals each team scored. 
 
 ## Part 1: Create the database
 + Log into the psql interactive terminal with psql --username=user --dbname=postgres.
