@@ -6,7 +6,7 @@ A worldcup project using bash scripting and postgreSQL db
 
 ## Part 1: Create the database
 + Log into the psql interactive terminal with psql --username=user --dbname=postgres.
-+ Ccreate a database named `worldcup`.
++ Create a database named `worldcup`.
 + Connect to the database after we create it.
 + Create tables:`teams` and `games`
 
