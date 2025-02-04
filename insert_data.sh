@@ -2,7 +2,6 @@
 
 PSQL="psql --username=freecodecamp --dbname=worldcup -t --no-align -c"
 
-# Do not change code above this line. Use the PSQL variable above to query your database.
 GET_TEAM_ID(){
   local team_name=$1
 
