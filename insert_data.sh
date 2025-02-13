@@ -1,6 +1,6 @@
 #! /bin/bash
 
-PSQL="psql --username=freecodecamp --dbname=worldcup -t --no-align -c"
+PSQL="psql --username=youruser --dbname=worldcup -t --no-align -c"
 
 GET_TEAM_ID(){
   local team_name=$1
