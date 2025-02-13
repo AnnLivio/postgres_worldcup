@@ -1,6 +1,6 @@
 #! /bin/bash
 
-PSQL="psql --username=freecodecamp --dbname=worldcup --no-align --tuples-only -c"
+PSQL="psql --username=your_user --dbname=worldcup --no-align --tuples-only -c"
 
 echo -e "\nTotal number of goals in all games from winning teams:"
 echo "$($PSQL "SELECT SUM(winner_goals) FROM games")"
